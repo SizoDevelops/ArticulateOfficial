@@ -33,7 +33,7 @@
 }
 
 .title{
-    font-size: clamp(4vw, 70px, 16vw);
+    font-size: clamp(4vw, 50px, 12vw);
     color:   #547081; 
     /* #B1D7EE */
     margin: auto;

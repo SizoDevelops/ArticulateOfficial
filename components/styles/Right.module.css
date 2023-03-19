@@ -25,13 +25,13 @@
     font-family: 'Roboto', sans-serif;
 }
 .des{
-    width: min(90vw, 380px);
+    width: min(80vw, 350px);
     color:  #B1D7EE;
     margin: auto;
     text-align: center;
     line-height: 35px;
     margin-top: 30px;
-    font-size: clamp(15px, 2rem, 18px);
+    font-size: clamp(12px, 1.4rem, 15px);
    
 }
 
