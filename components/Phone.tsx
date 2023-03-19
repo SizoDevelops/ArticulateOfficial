@@ -1,4 +1,5 @@
 import React from 'react'
+import Buttons from './Buttons'
 import styles from './styles/Phone.module.css'
 
 export default function Phone() {
@@ -31,6 +32,7 @@ export default function Phone() {
 
 
       {/* This is the button section */}
+        <Buttons/>
     </div>
   )
 }

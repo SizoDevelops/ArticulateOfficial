@@ -1,14 +1,16 @@
 .body{
-    display: flex;
-    width: 100%;
+    width: min(100vw, 600px);
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    justify-content: center;
 }
 
 .outerCover{
     height: 570px;
     width: 280px;
-    border: 2px solid #1f2729;
-    margin-left: 100px;
-    margin-top: 30px;
+    border: 2px solid #181d1d;
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -17,6 +19,8 @@
     border-bottom: 3px solid #6d8a94;
     background: #8fb5c2;
     position: relative;
+    z-index: 4;
+    box-shadow: 0 20px 30px #010101;
 }
 .semiIntCover{
     height: 566px;
@@ -30,8 +34,8 @@
 }
 .screen {
     height: 98.7%;
-    width: 97%;
-    background-color: #1e2325;    
+    width: 99%;
+    background-color: #0C0C0C;    
     border-radius: 25px;
     margin-bottom: 2px;
     position: relative;
@@ -85,12 +89,12 @@
 }
 .outerShine{
     height: 98.7%;
-    width: 97%;
-    background-color: #1e2325;    
+    width: 99%;
+    background-color: #0C0C0C;    
     border-radius: 25px;
     position: absolute;
     z-index: 1;
-    background-image: url("https://source.unsplash.com/random/?screensaver/");
+    background-image: url("https://source.unsplash.com/random/?futuristic/");
     background-position: center;
     background-size: cover;
     top: 3px;
@@ -106,6 +110,178 @@
     font-size: 60px;
     color: #fff;
 }
+.Buttons{
+    display: none;
+}
 
+
+@media (min-width: 1224px) {
+    .body{
+        width: min(100vw, 600px);
+        display: inline-flex;
+        align-items: center;
+        margin-left: 60px;
+        position: relative;
+    }
+    
+    .outerCover{
+        height: 570px;
+        width: 280px;
+        border: 2px solid #181d1d;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 3px solid #8fb5c2;
+        border-bottom: 3px solid #6d8a94;
+        background: #8fb5c2;
+        position: relative;
+        z-index: 4;
+        box-shadow: 0 20px 30px #010101;
+    }
+    .semiIntCover{
+        height: 566px;
+        width: 280px;
+        border: 1px solid #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        background: #000;
+    }
+    .screen {
+        height: 98.7%;
+        width: 99%;
+        background-color: #0C0C0C;    
+        border-radius: 25px;
+        margin-bottom: 2px;
+        position: relative;
+    }
+    
+    .camera{
+        width: 15px;
+        height: 15px;
+        border-radius: 100px;
+        border: 1px solid;
+        margin: auto;
+        top: 13px;
+        background: #000;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        z-index: 3;
+    }
+    
+    .innerCam1{
+        width: 10px;
+        height: 10px;
+        border-radius: 100px;
+        background: #131518;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .innerCam2{
+        width: 5px;
+        height: 5px;
+        border-radius: 100px;
+        background: #626468;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .innerCam3{
+        width: 3px;
+        height: 3px;
+        border-radius: 100px;
+        background: #79a1b694;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2px;
+        margin-top: 3px;
+    }
+    .outerShine{
+        height: 98.7%;
+        width: 99%;
+        background-color: #0C0C0C;    
+        border-radius: 25px;
+        position: absolute;
+        z-index: 1;
+        background-image: url("https://source.unsplash.com/random/?futuristic/");
+        background-position: center;
+        background-size: cover;
+        top: 3px;
+    }
+    .timeAndDate{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .time{
+        font-size: 60px;
+        color: #fff;
+    }
+    
+   
+    
+  }
+
+  @media (min-width: 614px){
 /* This is the btn section */
 
+.Buttons{
+    height: 420px;
+    width: fit-content;
+    margin-left: -30px;
+    align-items: flex-start;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btnOne,.btnTwo,.btnThree{
+    width: 350px;
+    height: 100px;
+    border: 6px solid #547081;
+    border-radius: 10px;
+    background: #161E23;
+    padding-left: 35px;
+
+}
+.btnHeader{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 4px;
+}
+.btnNumber{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 3px solid #547081;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #547081;
+}
+
+.btnTitle{
+    color: #547081;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.btnDes{
+    color: #547081;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+  }

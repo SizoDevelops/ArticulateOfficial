@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+.rightCont{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: min(100vw, 700px);
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.circle{
+
+    display: none;
+}
+
+.details{
+    position: absolute;
+    top: 0;
+}
+.title{
+    color: #03a4ff;
+    font-size: clamp(10vw, 110px, 20vw);
+    font-weight:900;
+    font-family: 'Roboto', sans-serif;
+}
+.des{
+    width: min(90vw, 380px);
+    color:  #B1D7EE;
+    margin: auto;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 30px;
+    font-size: clamp(15px, 2rem, 18px);
+   
+}
+
+.btnsCont{
+    
+    position: absolute;
+    bottom: 70px;
+    width: 300px;
+    height: fit-content;
+    align-items: center;
+    display: none;
+    flex-direction: column;
+}
+
+.btns{
+    display: inline-flex;
+
+}
+.google, .apkpure{
+    width: 180px;
+    height: 60px;
+    border: 2px solid #547081;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+}
+
+.iconHolder{
+    width: 20px;
+    height: 22px;
+    position: relative;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1224px) {
+    .rightCont{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: min(50vw, 700px);
+        height: 600px;
+    }
+    .circle{
+        width: min(60vw, 750px);
+        height: min(60vw, 750px);
+        background: #161E23;
+        border-radius: 100%;
+        position: absolute;
+        top: -120px;
+        right: -180px;
+        display: block;
+    }
+    
+    .details{
+        position: absolute;
+        top: 0;
+        left: 20px;
+    }
+    .title{
+        color: #03a4ff;
+        font-size: 110px;
+        font-weight:900;
+        font-family: 'Roboto', sans-serif;
+    }
+    .des{
+        color:  #B1D7EE;
+        text-align: center;
+        line-height: 35px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    
+    .btnsCont{
+ 
+        position: absolute;
+        bottom: 70px;
+        left: 120px;
+        width: 300px;
+        height: fit-content;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btns{
+        display: inline-flex;
+    
+    }
+    .google, .apkpure{
+        width: 180px;
+        height: 60px;
+        border: 2px solid #547081;
+        border-radius: 5px;
+        background: #000;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 20px;
+    }
+    
+    .iconHolder{
+        width: 20px;
+        height: 22px;
+        position: relative;
+        margin-right: 10px;
+    }
+}

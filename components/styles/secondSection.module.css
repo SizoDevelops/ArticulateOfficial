@@ -1,0 +1,414 @@
+.mainCont{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.firstSection{
+    width: 90%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.features{
+    height: 250px;
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+
+}
+
+.featureP{
+    color:  #547081;
+    font-size: clamp(10px, 1.5rem, 15px);
+    font-weight: 400;
+}
+
+.title{
+    font-size: clamp(4vw, 70px, 16vw);
+    color:   #547081; 
+    /* #B1D7EE */
+    margin: auto;
+    font-weight: 600;
+    margin-bottom: 30px;
+   
+}
+
+.secondS{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cat{
+    background: #161e234d;
+    width: 90vw;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #547081;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.Image{
+   height: 120px;
+   width: 120px;
+   display: flex;
+   position: absolute;
+   background-image: url("https://i.ibb.co/gjHJJCw/Image.jpg");
+   background-position: center;
+   background-size: cover;
+   background-color: #010101;
+    opacity: 0.5;
+filter: contrast(150%) saturate(150%) brightness(50%);
+border-radius: 6%;
+    
+}
+
+.secondCircle{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    background: linear-gradient(to bottom, #161E23 30%, #000000 90%);
+    margin-left: 100px;
+    margin-top: -120px;
+    border-radius: 100%;
+    position: absolute;
+    right: 80px;
+    display: none;
+
+}
+
+
+.leftS{
+    width:  fit-content;
+    height: fit-content;
+    position: relative;
+    margin-left: 30px;
+    display: inline-flex;
+    margin-top: 60px;
+    display: none;
+}
+.spanOne, .spanTwo, .spanThree{
+    height: 300px;
+    width: 200px;
+    background: rgb(12, 21, 31);
+    border-radius: 7px;
+}
+
+.spanOne{
+    margin-top: 100px;
+    position: relative;
+    left: 35px;
+    z-index: 3;  
+    background-image: url("https://i.ibb.co/dPKWtR8/Kelly.jpg");
+   background-position: center;
+   background-size: cover;
+   background-color: #010101;
+   box-shadow: 20px 0 50px #010101;
+}
+
+.spanTwo{
+    margin-top: 50px;
+    position: relative;
+    left: 20px;
+    z-index: 2;
+    background-image: url("https://i.ibb.co/hHFcHgD/Kwesta.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: #010101;
+    box-shadow: 20px 0 50px #010101;
+}
+.spanThree{
+    position: relative;
+    z-index: 1;
+    background-image: url("https://i.ibb.co/PxjJSyq/Nosipho.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: #010101;
+    box-shadow: 20px 0 60px #010101;
+}
+
+.Icons{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.feature{
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.reviews{
+    width: 90vw;
+    height: 450px;
+    position: relative;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.reviews::-webkit-scrollbar{
+    display: none;
+}
+
+.rTitle{
+    font-size: 40px;
+    color:  #547081;
+    font-weight: 600;
+}
+.reviewCont{
+    margin-top: 20px;
+}
+.review{
+    color:  #547081;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.reviewer{
+    font-size: 20px;
+    color:  #B1D7EE;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.stars{
+   display: inline-flex;
+   margin-left: 10px;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.star{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 5px;
+}
+
+@media (min-width: 1345px){
+    .mainCont{
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    
+    .firstSection{
+        width: 90%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .features{
+        height: 250px;
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: space-evenly;
+        padding-left: 40px;
+    }
+    
+    .featureP{
+        color:  #547081;
+        font-size: clamp(15px, 2rem, 18px);
+        font-weight: 400;
+    }
+    
+    .title{
+        font-size: 80px;
+        color:   #547081; 
+        /* #B1D7EE */
+        margin-left: 50px;
+        font-weight: 600;
+    }
+    
+    .secondS{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cat{
+        background: #161e234d;
+        width: 450px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:  #547081;
+        margin-left: 80px;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .Image{
+       height: 120px;
+       width: 120px;
+       display: flex;
+       position: absolute;
+       background-image: url("https://i.ibb.co/gjHJJCw/Image.jpg");
+       background-position: center;
+       background-size: cover;
+       background-color: #010101;
+        opacity: 0.5;
+    filter: contrast(150%) saturate(150%) brightness(50%);
+    border-radius: 6%;
+        
+    }
+    
+    .secondCircle{
+        height: 200px;
+        width: 200px;
+        display: flex;
+        background: linear-gradient(to bottom, #161E23 30%, #000000 90%);
+        margin-left: 100px;
+        margin-top: -120px;
+        border-radius: 100%;
+        position: absolute;
+        right: 80px;
+    
+    
+    }
+    
+    .sPhones{
+        position: absolute;
+        right: 550px;
+        display: inline-flex;
+        width: 170px;
+        align-items: baseline;
+    }
+    .leftS{
+        width:  fit-content;
+        height: fit-content;
+        position: relative;
+        margin-left: 30px;
+        display: inline-flex;
+        margin-top: 60px;
+    }
+    .spanOne, .spanTwo, .spanThree{
+        height: 300px;
+        width: 200px;
+        background: rgb(12, 21, 31);
+        border-radius: 7px;
+    }
+    
+    .spanOne{
+        margin-top: 100px;
+        position: relative;
+        left: 35px;
+        z-index: 3;  
+        background-image: url("https://i.ibb.co/dPKWtR8/Kelly.jpg");
+       background-position: center;
+       background-size: cover;
+       background-color: #010101;
+       box-shadow: 20px 0 50px #010101;
+    }
+    
+    .spanTwo{
+        margin-top: 50px;
+        position: relative;
+        left: 20px;
+        z-index: 2;
+        background-image: url("https://i.ibb.co/hHFcHgD/Kwesta.jpg");
+        background-position: center;
+        background-size: cover;
+        background-color: #010101;
+        box-shadow: 20px 0 50px #010101;
+    }
+    .spanThree{
+        position: relative;
+        z-index: 1;
+        background-image: url("https://i.ibb.co/PxjJSyq/Nosipho.jpg");
+        background-position: center;
+        background-size: cover;
+        background-color: #010101;
+        box-shadow: 20px 0 60px #010101;
+    }
+    
+    .Icons{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        margin-right: 10px;
+    }
+    
+    .feature{
+        display: inline-flex;
+        align-items: center;
+        
+    }
+    
+    .reviews{
+        width: 50%;
+        height: 450px;
+        position: absolute;
+        bottom: 45px;
+        right: 30px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .rTitle{
+        font-size: 40px;
+        color:  #547081;
+        font-weight: 600;
+    }
+    .reviewCont{
+        margin-top: 20px;
+    }
+    .review{
+        color:  #547081;
+        font-weight: 200;
+        margin-left: 20px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    
+    .reviewer{
+        font-size: 20px;
+        color:  #B1D7EE;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .stars{
+       display: inline-flex;
+       margin-left: 10px;
+       align-items: center;
+    }
+    
+    .star{
+        width: 15px;
+        height: 15px;
+        position: relative;
+        margin: 5px;
+    }
+}
