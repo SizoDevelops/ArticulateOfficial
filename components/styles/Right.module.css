@@ -53,7 +53,7 @@
     width: 100%;
 }
 .google, .apkpure{
-    width: 180px;
+    width: min(180px, 40vw);
     height: 60px;
     border: 2px solid #547081;
     border-radius: 5px;
@@ -64,6 +64,7 @@
     display: flex;
     margin: 20px;
     text-decoration: none;
+    font-size: min(16px, 4vw);
 }
 
 .iconHolder{
