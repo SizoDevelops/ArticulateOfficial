@@ -133,7 +133,7 @@
     
     .topParas{
         width: 40%;
-        height: 360px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;

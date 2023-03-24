@@ -33,7 +33,7 @@
 }
 
 .title{
-    font-size: clamp(4vw, 50px, 12vw);
+    font-size: min(30px, 12vw);
     color:   #547081; 
     /* #B1D7EE */
     margin: auto;
@@ -51,7 +51,7 @@
 }
 
 .cat{
-    background: #222f35a4;
+    background: #19242970;
     width: 90vw;
     height: 50px;
     margin: auto;

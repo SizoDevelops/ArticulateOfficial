@@ -8,7 +8,7 @@ export default function Header() {
     <div className={styles.header}>
         <Link href="/about" className={styles.link}>About</Link>
         <Link href="/" className={styles.link}>Home</Link>
-        <Link href="/" className={styles.link}>Blog</Link>
+        <Link href="#" className={styles.link}>Blog</Link>
     </div>
   )
 }
