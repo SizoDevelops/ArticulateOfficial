@@ -51,7 +51,7 @@
 }
 
 .cat{
-    background: #161e234d;
+    background: #222f35a4;
     width: 90vw;
     height: 50px;
     margin: auto;
@@ -176,12 +176,14 @@ border-radius: 6%;
 }
 .reviewCont{
     margin-top: 20px;
+ 
 }
 .review{
     color:  #547081;
     font-weight: 200;
-    font-size: 15px;
+    font-size: min(15px, 3.5vw);
     line-height: 30px;
+    margin-bottom: 10px;
 }
 
 .reviewer{

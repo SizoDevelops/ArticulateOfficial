@@ -31,7 +31,7 @@ export default function Buttons() {
             <p className={styles.btnTitle}>Search Lyrics</p>
         </span>
        
-       <p className={styles.btnDes}>Request lyrics with ease and never be left out, on trends</p>
+       <p className={styles.btnDes}>Search for lyrics online and offline.</p>
 
     </span>
   </div>

@@ -4,7 +4,7 @@ import find from '../public/find.png'
 import add from '../public/add.png'
 import search from '../public/Search.png'
 import listen from '../public/Listen.png'
-import star from '../public/star.png'
+import star from '../public/starsvg.svg'
 import styles from './styles/secondSection.module.css'
 
 interface IObjectKeys {
