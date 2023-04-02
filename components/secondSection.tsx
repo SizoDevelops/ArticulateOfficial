@@ -7,31 +7,8 @@ import listen from '../public/Listen.png'
 import star from '../public/starsvg.svg'
 import styles from './styles/secondSection.module.css'
 
-interface IObjectKeys {
-    client_id: string,
-    redirect_uri: string,
-    response_type: string,
-    scope: string,
-    include_granted_scopes: string,
-    state: string
-  }
-
- 
-
 const arr = [1, 2, 3, 4, 5]
 export default function SecondSection() {
-
-
-useEffect(() => {
-
-      
-    fetch(`https://www.googleapis.com/androidpublisher/v3/applications/com.sizodevelops.Articulate/reviews?
-access_token=168997585616-au6s0ko4iphdvagplq7arfq7b15jrqae.apps.googleusercontent.com`, {
-  method: "GET"
-}).then(data => data.json()).then(data => console.log(data))
-
-
-},[])
 
 
   return (

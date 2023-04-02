@@ -20,7 +20,7 @@
 .title{
     color: #03a4ff;
     font-size: clamp(10vw, 110px, 20vw);
-    font-weight:900;
+    font-weight:900 !important;
  
 }
 .des{
